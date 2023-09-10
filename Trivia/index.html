@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <title>Trivia!</title>
+
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <form id="quizForm">
+                <h2 id="commend"></h2>
+                <hr>
+                    <p id="question"></p>
+                    <label>
+                        <input type="radio" name="choices" value="0">
+                    <span></span> 
+                    <br> 
+                    </label>
+                    
+                    <label>
+                        <input type="radio" name="choices" value="1">
+                        <span></span>
+                        <br>  
+                    </label>
+                    
+                    <label>
+                        <input type="radio" name="choices" value="2">
+                        <span></span> 
+                        <br> 
+                    </label>
+                    
+                    <label>
+                        <input type="radio" name="choices" value="3">
+                        <span></span>  
+                    </label>
+                       <input  type="text"  id="input" placeholder="Answer">
+                    <br><br>
+                    <button type="button" id="submitButton">Submit</button>
+                </form>
+                <p id="result"></p>
+                <button type="submit" id="resetButton" hidden >try again</button>
+            </div>
+              
+              <script src="script.js"></script>
+
+    </body>
+</html>
