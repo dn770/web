@@ -1,0 +1,19 @@
+input[type= "checkbox"]:checked + label{
+    text-decoration: line-through;
+}
+
+/* ערוך את הרשימה (ul) כדי להסתיר את הנקודה */
+ul {
+    list-style-type: none;
+}
+
+/* CSS כדי להסתיר את הנקודה של הרשימה ולהשאיר רק את ה-checkbox */
+li {
+    display: flex; /* השתמש ב-flex כדי לשים את ה-checkbox והטקסט בשורה אחת */
+    align-items: center; /* מרכז את האלמנטים ברצועה אופקית */
+}
+
+/* CSS כדי להסתיר את הנקודה של הרשימה ולהשאיר רק את ה-checkbox */
+input[type="checkbox"] {
+    margin-right: 5px; /* הזזת ה-checkbox קצת ימינה מהטקסט */
+}
